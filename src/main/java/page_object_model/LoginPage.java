@@ -1,3 +1,4 @@
+
 package page_object_model;
 
 	import java.io.IOException;
@@ -33,7 +34,7 @@ package page_object_model;
 
 	    public void enterPassword() throws IOException {
 	        WebElement password = wait.until(ExpectedConditions.visibilityOfElementLocated(passwordField));
-	        password.sendKeys("epsumlabs@1234");
+	        password.sendKeys("epsuml@bs@1234");
 	    }
 
 	    public void clickLogin() {
@@ -42,4 +43,3 @@ package page_object_model;
 	    }
 
 }
-

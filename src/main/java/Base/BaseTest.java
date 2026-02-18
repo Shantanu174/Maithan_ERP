@@ -17,7 +17,7 @@ public class BaseTest {
     public void setUp() throws IOException {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://maithanerp.epsumlabs.in/login");
+        driver.get("https://testmerp.epsumlabs.in/login");
         
      // ✅ Perform Login before every test automatically
         LoginPage loginPage = new LoginPage(driver);
