@@ -41,5 +41,5 @@ package page_object_model;
 	        WebElement loginBtn = wait.until(ExpectedConditions.elementToBeClickable(loginButton));
 	        loginBtn.click();
 	    }
-
+//Testing page will be pulled to git page.
 }
